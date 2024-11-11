@@ -1,0 +1,43 @@
+
+/* univerzalni selektor */
+*{
+    background-color: yellow;
+}
+
+
+
+
+* element selektor */
+
+/* h1{
+    color: aqua;
+} */
+
+
+
+/* class selektor */
+
+.prvi{
+    color: blue;
+}
+.drugi{
+    color: forestgreen;
+}
+.treci{
+    color: rebeccapurple;
+}
+
+/* id selektor */
+#cetvrti{
+    color: maroon;
+}
+
+/* atribu selektor */
+
+p[draggable="true"]{
+    color: darkkhaki;
+}
+
+p[draggable="false"]{
+    color: darkorchid;
+}
